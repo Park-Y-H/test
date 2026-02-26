@@ -246,9 +246,11 @@ footer {
   }
 
   .hero {
-    height: auto; /* 화면 높이에 맞춤 */
-    background-size: contain; /* 전체 이미지 보이도록 */
-    background-position: center top; /* 중요한 부분 위쪽 기준 */
+    height: auto;             /* 모바일 화면에 맞춰 높이 조절 */
+    min-height: 50vh;         /* 필요하면 최소 높이 유지 */
+    background-size: contain; /* 이미지 비율 유지 */
+    background-position: center top; 
+    background-repeat: no-repeat; /* 여러 장 겹침 방지 */
     background-attachment: scroll; /* 패럴랙스 해제 */
   }
   
@@ -308,9 +310,11 @@ footer {
   }
 
   .hero {
-    height: auto; /* 화면 높이에 맞춤 */
-    background-size: contain; /* 전체 이미지 보이도록 */
-    background-position: center top; /* 중요한 부분 위쪽 기준 */
+    height: auto;             /* 모바일 화면에 맞춰 높이 조절 */
+    min-height: 50vh;         /* 필요하면 최소 높이 유지 */
+    background-size: contain; /* 이미지 비율 유지 */
+    background-position: center top; 
+    background-repeat: no-repeat; /* 여러 장 겹침 방지 */
     background-attachment: scroll; /* 패럴랙스 해제 */
   }
 
@@ -354,3 +358,4 @@ footer {
   }
 
 }
+
