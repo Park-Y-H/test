@@ -247,6 +247,7 @@ footer {
   }
 
   nav a {
+    margin: 0 15px;
     font-size: 14px; /* 메뉴 글씨 줄임 */
     padding: 6px 8px;
   }
@@ -283,6 +284,7 @@ footer {
   }
 
   nav a {
+    margin: 0;
     font-size: 12px;
   }
 }
@@ -294,4 +296,5 @@ footer {
   max-height: 250px; /* 필요하면 제한 */
   object-fit: cover;
 }
+
 
