@@ -240,7 +240,7 @@ footer {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   header h1 {
     font-size: 24px; /* 제목 줄임 */
   }
@@ -295,6 +295,7 @@ footer {
   max-height: 250px; /* 필요하면 제한 */
   object-fit: cover;
 }
+
 
 
 
