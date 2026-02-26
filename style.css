@@ -192,12 +192,11 @@ footer {
 }
 
 /* 사진 자리 */
-.photo {
+.member .photo {
   width: 180px;
   height: 180px;
-  background-color: #ddd;
   border-radius: 50%;
-  margin-bottom: 15px;
+  object-fit: cover;
 }
 
 /* 이름 */
@@ -296,5 +295,6 @@ footer {
   max-height: 250px; /* 필요하면 제한 */
   object-fit: cover;
 }
+
 
 
