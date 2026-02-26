@@ -238,4 +238,33 @@ footer {
 .gallery-item p {
   margin-top: 10px;
   font-size: 15px;
+
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 24px; /* 제목 줄임 */
+  }
+
+  nav a {
+    font-size: 14px; /* 메뉴 글씨 줄임 */
+    padding: 6px 8px;
+  }
+
+  .content, .gallery-section, .team-section {
+    padding: 40px 15px; /* 여백 줄임 */
+  }
+
+  .team-row {
+    flex-direction: column; /* 한 줄씩 쌓기 */
+    gap: 20px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr; /* 2장씩 표시 */
+  }
+
+  .gallery-item img {
+    height: 180px; /* 이미지 비율 맞춤 */
+  }
 }
