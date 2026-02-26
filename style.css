@@ -246,8 +246,10 @@ footer {
   }
 
   .hero {
-    background-size: contain; /* 전체 이미지가 다 보이도록 */
-    background-position: center top; /* 위쪽 기준으로 보여줌 */
+    height: auto; /* 화면 높이에 맞춤 */
+    background-size: contain; /* 전체 이미지 보이도록 */
+    background-position: center top; /* 중요한 부분 위쪽 기준 */
+    background-attachment: scroll; /* 패럴랙스 해제 */
   }
   
   nav a {
@@ -306,8 +308,10 @@ footer {
   }
 
   .hero {
-    background-size: contain; /* 전체 이미지가 다 보이도록 */
-    background-position: center top; /* 위쪽 기준으로 보여줌 */
+    height: auto; /* 화면 높이에 맞춤 */
+    background-size: contain; /* 전체 이미지 보이도록 */
+    background-position: center top; /* 중요한 부분 위쪽 기준 */
+    background-attachment: scroll; /* 패럴랙스 해제 */
   }
 
   /* 팀 섹션 */
@@ -348,4 +352,5 @@ footer {
   .gallery-item img {
     height: 180px;
   }
+
 }
