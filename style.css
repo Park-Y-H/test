@@ -287,3 +287,11 @@ footer {
   }
 }
 
+.team-section .photo,
+.gallery-item img {
+  width: 100%;
+  height: auto; /* 높이는 이미지 비율에 맞춤 */
+  max-height: 250px; /* 필요하면 제한 */
+  object-fit: cover;
+}
+
